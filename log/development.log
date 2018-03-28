@@ -1,0 +1,2532 @@
+Started GET "/" for 127.0.0.1 at 2018-03-11 11:56:02 +0530
+Started GET "/" for 127.0.0.1 at 2018-03-11 11:56:02 +0530
+Started GET "/" for 127.0.0.1 at 2018-03-11 12:08:40 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb (84.1ms)
+Completed 200 OK in 6981ms (Views: 537.9ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:11:21 +0530
+  
+SyntaxError (C:/RailsInstaller/travel/app/controllers/feedback_controller.rb:4: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/feedback_controller.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:12:34 +0530
+Processing by FeedbackController#new as HTML
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NameError (uninitialized constant FeedbackController::Feedback):
+  
+app/controllers/feedback_controller.rb:3:in `new'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:13:38 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7430ms
+
+
+  
+ActionView::Template::Error (Permission denied @ unlink_internal - C:/Users/User/AppData/Local/Temp/execjs20180311-8356-dolvs0json):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1062309678_40857264'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:16:12 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3127ms
+
+
+  
+ActionView::Template::Error (The asset "css3-mediaqueries.js" is not present in the asset pipeline.):
+    24:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    25:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    26:   <!--[if (lt IE 9) & (!IEMobile)]>
+    27:     <%= javascript_include_tag "css3-mediaqueries" %>
+    28:   <![endif]-->
+    29: </head>
+    30: <body>
+  
+app/views/layouts/application.html.erb:27:in `_app_views_layouts_application_html_erb__1062309678_80708508'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:18:43 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 615ms (Views: 500.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:36:12 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 552ms (Views: 434.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:41:28 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 558ms (Views: 444.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:42:11 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 558ms (Views: 449.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:43:01 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 549ms (Views: 442.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:48:18 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 653ms (Views: 540.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:48:50 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 544ms (Views: 430.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:49:21 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 573ms (Views: 449.9ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:49:33 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 583ms (Views: 471.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:49:51 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 558ms (Views: 450.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 12:50:11 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 564ms (Views: 457.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:19:28 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 4418ms (Views: 1713.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:23:47 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 557ms (Views: 444.8ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:24:32 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 639ms (Views: 534.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:24:47 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 580ms (Views: 469.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:26:13 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 549ms (Views: 438.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:34:19 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 588ms (Views: 478.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:35:18 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 601ms (Views: 486.4ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:36:01 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 592ms (Views: 471.8ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:36:34 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 566ms (Views: 453.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-11 16:36:37 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 572ms (Views: 461.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-13 22:32:35 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb (64.0ms)
+Completed 200 OK in 7077ms (Views: 498.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:32:55 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3320ms (Views: 3221.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:35:22 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 575ms (Views: 458.5ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:36:50 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 668ms (Views: 557.9ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:37:21 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 515ms (Views: 415.4ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:38:18 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 673ms (Views: 559.5ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:38:41 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 552ms (Views: 445.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:39:11 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 536ms (Views: 432.5ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:40:09 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 965ms (Views: 802.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:40:46 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 611ms (Views: 496.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:44:12 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 773ms (Views: 612.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:45:40 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 788ms (Views: 546.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:56:18 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 566ms (Views: 454.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:56:45 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 603ms (Views: 476.5ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:57:24 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 606ms (Views: 483.8ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:57:52 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 677ms (Views: 548.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:58:21 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 589ms (Views: 479.9ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:59:03 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 620ms (Views: 505.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:59:15 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 592ms (Views: 479.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:59:24 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 644ms (Views: 527.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:59:35 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 800ms (Views: 632.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 22:59:46 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 602ms (Views: 493.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:00:59 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 622ms (Views: 485.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:01:22 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 555ms (Views: 444.5ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:01:46 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 581ms (Views: 463.2ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:02:02 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 594ms (Views: 483.2ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:02:06 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 574ms (Views: 460.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:02:20 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 596ms (Views: 484.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:03:02 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 556ms (Views: 452.4ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:05:42 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 689ms (Views: 566.2ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:05:57 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 606ms (Views: 469.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:06:26 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 557ms (Views: 441.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:07:54 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 748ms (Views: 602.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:08:17 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 563ms (Views: 449.2ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:08:48 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 711ms (Views: 576.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:09:40 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 572ms (Views: 464.2ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:09:54 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 737ms (Views: 592.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:10:52 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 618ms (Views: 491.8ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:11:12 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 633ms (Views: 509.6ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:11:31 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 730ms (Views: 604.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:11:48 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 686ms (Views: 556.8ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:12:00 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 668ms (Views: 539.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:12:09 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 784ms (Views: 669.8ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:12:24 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 587ms (Views: 472.1ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:12:39 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 605ms (Views: 488.7ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:12:50 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 618ms (Views: 499.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:13:07 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 596ms (Views: 483.3ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:15:48 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 573ms (Views: 456.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-13 23:15:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:24:30 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 557ms (Views: 443.2ms)
+
+
+Started GET "/feedback/feedback.css" for 127.0.0.1 at 2018-03-13 23:24:31 +0530
+  
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-13 23:24:31 +0530
+ActionController::RoutingError (No route matches [GET] "/feedback/feedback.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:26:36 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 676ms (Views: 528.9ms)
+
+
+Started GET "/feedback/feedback.css" for 127.0.0.1 at 2018-03-13 23:26:37 +0530
+  
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-13 23:26:37 +0530
+ActionController::RoutingError (No route matches [GET] "/feedback/feedback.css"):
+  
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:27:14 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41053ms (Views: 38890.1ms)
+
+
+Started GET "/feedback/feedback.css" for 127.0.0.1 at 2018-03-13 23:28:04 +0530
+  
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-13 23:28:04 +0530
+ActionController::RoutingError (No route matches [GET] "/feedback/feedback.css"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:28:52 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (17134.2ms)
+Completed 500 Internal Server Error in 31580ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( feedback.css )` to `config/initializers/assets.rb` and restart your server):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <%= stylesheet_link_tag "feedback" %>
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_76212780'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:32:06 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2551.8ms)
+Completed 500 Internal Server Error in 2931ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( feedback.css )` to `config/initializers/assets.rb` and restart your server):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <%= stylesheet_link_tag "feedback" %>
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_88030452'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:35:45 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (588.4ms)
+Completed 500 Internal Server Error in 1014ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <%= stylesheet_link_tag "feedback" %>
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_88731480'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:38:09 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2178.6ms)
+Completed 500 Internal Server Error in 2714ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <%= stylesheet_link_tag "feedback" %>
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_76951572'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:43:00 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (204.1ms)
+Completed 500 Internal Server Error in 589ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <%= stylesheet_link_tag "feedback" %>
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_106171884'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:49:39 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (209.2ms)
+Completed 500 Internal Server Error in 597ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <%= stylesheet_link_tag "feedback" %>
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_77682672'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:51:14 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (130.1ms)
+Completed 500 Internal Server Error in 586ms
+
+
+  
+ActionView::Template::Error (The asset "foo.css" is not present in the asset pipeline.):
+    2: <html lang="en">
+    3: <head>
+    4:   <title>Submit feedback</title>
+    5:   <!--<%= stylesheet_link_tag "foo" %>-->
+    6:   </head>
+    7:   <body background="forms.jpg">
+    8:   <div align="right">
+  
+app/views/feedback/new.html.erb:5:in `_app_views_feedback_new_html_erb__853561930_105127668'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:52:28 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 568ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__23084727_97097328'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:55:05 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 1083ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__23084727_104786364'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:55:59 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 431ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__23084727_91509348'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:56:46 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 957ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__23084727_77303160'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-13 23:58:44 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 594ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "html"):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/feedback.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__23084727_99314100'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:00:55 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1445ms (Views: 1315.2ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:00:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:03:40 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 7701ms (Views: 5155.5ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:05:59 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1705ms (Views: 1561.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:06:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:08:52 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2028ms (Views: 1912.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:08:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:09:43 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 696ms (Views: 565.0ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:09:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:10:01 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22434ms (Views: 19758.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:10:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:10:41 +0530
+Processing by FeedbackController#new as HTML
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:10:52 +0530
+  Rendering feedback/new.html.erb within layouts/application
+Processing by FeedbackController#new as HTML
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 25194ms (Views: 22480.7ms)
+
+
+Completed 200 OK in 15761ms (Views: 15331.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:11:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:11:13 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11130ms (Views: 10949.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:11:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:12:05 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:12:19 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:12:23 +0530
+Processing by FeedbackController#new as HTML
+Completed 200 OK in 20686ms (Views: 15660.7ms)
+
+
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10616ms (Views: 10410.8ms)
+
+
+Completed 200 OK in 4295ms (Views: 1123.8ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:12:31 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:12:57 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14992ms (Views: 10922.4ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:13:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:13:33 +0530
+Processing by FeedbackController#new as HTML
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:13:39 +0530
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19375ms (Views: 18035.0ms)
+
+
+Completed 200 OK in 11460ms (Views: 10998.0ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:13:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:15:04 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 575ms (Views: 469.8ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:15:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:16:00 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1081ms (Views: 805.4ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:16:02 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:19:53 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1302ms (Views: 1189.4ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:19:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:21:07 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1225ms (Views: 1095.6ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:21:08 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:24:17 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1568ms (Views: 1439.8ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:24:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:25:41 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 633ms (Views: 492.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:25:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:26:29 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 588ms (Views: 480.6ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:26:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:27:09 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 355ms (Views: 289.0ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:27:09 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:30:05 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1618ms (Views: 1361.2ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:30:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:52:30 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 767ms (Views: 632.6ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:52:31 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:53:25 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1706ms (Views: 1582.0ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:53:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:53:57 +0530
+Processing by FeedbackController#new as HTML
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:54:05 +0530
+  Rendering feedback/new.html.erb within layouts/application
+Processing by FeedbackController#new as HTML
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16223ms (Views: 12209.3ms)
+
+
+Completed 200 OK in 8424ms (Views: 5771.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:54:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:57:28 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1417ms (Views: 1298.1ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:57:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:58:04 +0530
+Processing by FeedbackController#new as HTML
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:58:06 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5046ms
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/RailsInstaller/travel/tmp/cache/assets/sprockets/v3.0/UN/UNQTPqzTIvlZstEVMqmVeLoHOytZ9iOcqZc2OWL1ZZE.cache.39855192.6980.839961, C:/RailsInstaller/travel/tmp/cache/assets/sprockets/v3.0/UN/UNQTPqzTIvlZstEVMqmVeLoHOytZ9iOcqZc2OWL1ZZE.cache)):
+    4:     <title>Travel</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___747918019_76654440'
+Completed 200 OK in 8130ms (Views: 7892.0ms)
+
+
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 00:58:51 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 669ms (Views: 534.8ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 00:58:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:04:55 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 623ms (Views: 492.9ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:04:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:05:24 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9449ms (Views: 9006.4ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:05:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:06:07 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10754ms (Views: 8228.9ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:06:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:06:59 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 620ms (Views: 534.7ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:07:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:10:38 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1323ms (Views: 1206.9ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:10:40 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:12:27 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1319ms (Views: 1195.2ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:12:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:13:36 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1212ms (Views: 1099.9ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:13:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:14:46 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1359ms (Views: 1245.2ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:14:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:15:43 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 588ms (Views: 480.8ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:15:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:33:26 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 784ms (Views: 660.7ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:33:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:34:19 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 590ms (Views: 480.1ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:34:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:34:42 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12701ms (Views: 12554.1ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:34:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:35:27 +0530
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (2888.0ms)
+Completed 200 OK in 13445ms (Views: 13176.5ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:35:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:36:16 +0530
+Processing by FeedbackController#new as HTML
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:36:21 +0530
+  Rendering feedback/new.html.erb within layouts/application
+Processing by FeedbackController#new as HTML
+  Rendered feedback/new.html.erb within layouts/application (1.0ms)
+Started GET "/feedback/new" for 127.0.0.1 at 2018-03-14 01:36:26 +0530
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (80.1ms)
+Processing by FeedbackController#new as HTML
+  Rendering feedback/new.html.erb within layouts/application
+  Rendered feedback/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9043ms (Views: 8871.9ms)
+
+
+Completed 200 OK in 5436ms (Views: 5267.2ms)
+
+
+Completed 200 OK in 1244ms (Views: 950.4ms)
+
+
+Started GET "/feedback/forms.jpg" for 127.0.0.1 at 2018-03-14 01:36:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/feedback/forms.jpg"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
